@@ -1,8 +1,11 @@
 
-![Logo](https://user-images.githubusercontent.com/103577578/198892738-3647ba25-fde4-406d-8b0b-4c89fe8d022b.jpeg)
 
 
 # HUMRAAHI
+
+<div align="center">
+<img width="320px" src="https://user-images.githubusercontent.com/103577578/198892738-3647ba25-fde4-406d-8b0b-4c89fe8d022b.jpeg">
+</div>
 
 It is an application that will help people(especially women) to feel safe and protected by send alerts to trusted ones.Our application sends, with just one tap, your location to nearby authorised users and your trusted contacts. also it immediately clicks photgraphs and sends it to police stations and NGOs. 
 Our application also allows users to blog and share any of their harassment cases or make them learn ways to deal with unwanted situation like these.
