@@ -52,7 +52,7 @@ html {
 /*NAVIGATION BAR*/
 header {
   background: linear-gradient(359deg, rgb(38, 68, 125), rgb(54, 98, 179));
-
+  position: sticky;
 }
 
 .p-title {
@@ -149,18 +149,18 @@ header {
   color: #ddd;
 }
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
 .show {
   display: block;
 }
 
-@media(min-width:400px) {
+@media(min-width:770px) {
   .dropdown {
     display: none;
   }
 }
 
-@media(max-width:400px) {
+@media(max-width:769px) {
   .navBar {
     display: none;
   }
@@ -216,14 +216,23 @@ header {
 }
 
 .navButton {
-  background: linear-gradient(199deg, rgb(125, 58, 42), rgb(179, 82, 60));
+  background: #dadbff;
+  color: rgba(0, 0, 0, 0.646);
   padding: 8px;
-  border-radius: 11px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.navButton:hover {
+  background: #6592fd;
+  color: #ffffff;
 }
 
 /* HOME SECTION  */
 
-.p-text {
+#home,
+#about {
+  background: #ddd;
   /* color: #ffffff; */
 }
 
@@ -231,15 +240,20 @@ header {
   max-width: 350px;
 }
 
-#home .container .text-center button{
+#home .container button {
   margin: 2%;
   padding: 1%;
   padding-right: 3%;
   padding-left: 3%;
   background: #dadbff;
-  justify-content: center;
+  /* border-radius: -1%; */
 }
-#home .container .text-center button:hover{
+
+#home .container button:hover {
   background: #6592fd;
   color: #ffffff;
+}
+
+#home .container h1 span {
+  font-weight: 700;
 }
