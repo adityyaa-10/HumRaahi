@@ -54,6 +54,10 @@ header {
   background: linear-gradient(359deg, rgb(38, 68, 125), rgb(54, 98, 179));
   position: sticky;
 }
+header img{
+  width: 40px;
+  border-radius: 5px;
+}
 
 .p-title {
   padding-left: 15px;
@@ -238,6 +242,7 @@ header {
 
 #home img {
   max-width: 350px;
+  border-radius: 7px;
 }
 
 #home .container button {
