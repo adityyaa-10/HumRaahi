@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(home_bg.png);
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navMenu {
+  position: fixed;
+  top: 5%;
+  left: 24%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 21px 37px 14px 108px;
+}
+
+.navMenu a {
+  color: #fa5c00;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 156px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: #fddb3a;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(190px);
+  transform: translateX(190px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(360px);
+  transform: translateX(360px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(535px);
+  transform: translateX(535px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.column {
+    float: left;
+    width: 31.33%;
+    padding: 96px 10px;
+    margin: 20px 12px;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column1 {
+    position: inherit;
+    float: left;
+    width: 31.33%;
+    padding: 209px 0px 58px 8px;
+    margin: 20px 12px;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.row .column .text1{   
+    margin: 326px 55px -151px 154px;
+    text-decoration: none!important;
+    color: black;
+}
+.img{
+    background: url(Untitled_design-removebg-preview1.png);
+    margin: -120px 2px 19px -4px;
+    padding: 83px 0px 333px 0px;
+}
+
+.button {
+    position: fixed;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: -74px 75px;
+    padding: 4.7rem 2rem;
+    font-weight: 700;
+    font-size: 51px;
+    text-align: center;
+    text-decoration: none;
+    color: #f73c03;
+    background-color: #ff9778;
+    backface-visibility: hidden;
+    border: 2.3rem  transparent;
+    border-radius: 50%;
+  }
+  .bnh {
+    border-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+    
+  .bnh:hover {
+    color: white;
+    background-color: #eb0909;
+  } 
+
+.bold_text{
+    padding: 1px 573px;
+    margin: -42px 23px 51px 13px;
+    color: black;
+}
+.blog_text{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 17px 929px 26px 46px;
+    color: rgb(20, 19, 19);   
+}
+
+.dropbtn {
+    background-color: #df4719;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 14px 52px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position:fixed;
+    background-color: #f1f1f1;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:inline-flexbox;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropdown-content {display:contents;}
+  .dropdown:hover .dropbtn {background-color: #fddb3a;}
+
+  .def_text{
+    float: right;
+    width: 22%;
+    margin: -186px 86px 45px 50px;
+  }

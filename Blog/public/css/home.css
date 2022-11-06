@@ -47,7 +47,7 @@ body{
     margin-top: 60px;
     width: 100%;
     height: calc(100vh - 60px);
-    background: url("../../../assets/imgs/women-7012034.jpg");
+    /* background: url("../../../assets/imgs/women-7012034.jpg"); */
     background-size: cover;
     display: flex;
     justify-content: center;
